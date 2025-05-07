@@ -52,13 +52,13 @@ header p {
   cursor: pointer;
 }
 /* Botones numéricos y operadores */
-.operadores {
+.operadores-numeros{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 5px;
 }
 
-.operadores button {
+.operadores-numeros button {
   padding: 15px;
   font-size: 1.1em;
   border: none;
@@ -67,7 +67,7 @@ header p {
   transition: background-color 0.2s;
 }
 
-.operadores button:hover,
+.operadores-numeros button:hover,
 .memoria button:hover {
   background-color: #ffb567;
 }

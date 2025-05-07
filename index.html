@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Calculadora</title>
 	<link rel="stylesheet" href="./css/global.css">
+	
 </head>
 <body>
 	<div class="calculadora">
@@ -12,7 +13,7 @@
 		<p>CASIO</p>
 	</header>
 	<section>
-		<input type="text" name="display" class="display" disabled>
+		<input type="text" name="display" class="display" value="0" readonly>
 	</section>
 	<section class="botones">
 		<div class="memoria">
@@ -22,8 +23,8 @@
 			<button data-operacion="restamemoria">M-</button>
 		</div>
 	</section>
-	<section class="botones">
-		<div class="operadores">
+	<section class="calculo">
+		<div class="operadores-numeros">
 			<button class="numero yellow" >7</button>
 			<button class="numero yellow" >8</button>
 			<button class="numero yellow" >9</button>
@@ -47,7 +48,7 @@
 			<button data-operacion="igual" class="operadorigual purple">=</button>
 		</div>
 	</section>
-	<script type="text/javascript" src="./scripts/calculadora.js"></script>
 	</div>
+	<script src="calculadora.js"></script>
 </body>
 </html>
