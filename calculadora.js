@@ -83,9 +83,4 @@ botonSigno.addEventListener('click', () => {
     actualizarDisplay(valorDisplay() * -1);
 });
 
-// Coma decimal
-botonComa.addEventListener('click', () => {
-    if (!display.value.includes(',')) {
-        display.value += ',';
-    }
-});
+
