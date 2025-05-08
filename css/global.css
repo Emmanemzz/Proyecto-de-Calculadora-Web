@@ -34,23 +34,6 @@ header p {
   box-sizing: border-box;
 }
 
-/* Memoria */
-.memoria {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-.memoria button {
-  flex: 1;
-  margin: 0 5px;
-  padding: 10px;
-  font-size: 1em;
-  background-color: #ffc0cb;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 /* Botones numéricos y operadores */
 .operadores-numeros{
   display: grid;
@@ -80,6 +63,10 @@ header p {
 .yellow{
   background-color: #fbf96d;
 }
+.yellowClear{
+  background-color: #fbf96d;
+  grid-column: span 2;
+}
 
 .blue{
   background-color: #6ddbfb;
@@ -89,6 +76,11 @@ header p {
   background-color: #6dfba1;
 }
 
-.purple{
+.purpleZero{
   background-color: #e394ff;
+  grid-column: span 2;
+}
+.purpleEqual{
+  background-color: #e394ff;
+  grid-column: span 3;
 }

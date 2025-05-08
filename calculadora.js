@@ -4,8 +4,6 @@ const botonesNumeros = document.querySelectorAll('.numero');
 const botonesOperadores = document.querySelectorAll('[data-operacion="aritmetica"]');
 const botonIgual = document.querySelector('[data-operacion="igual"]');
 const botonBorrar = document.querySelector('[data-operacion="borrar"]');
-const botonSigno = document.querySelector('[data-operacion="cambiasigno"]');
-const botonComa = document.querySelector('.coma');
 
 // Variables de estado
 let valorAnterior = '';
