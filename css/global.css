@@ -52,7 +52,8 @@ header p {
 
 .operadores-numeros button:hover,
 .memoria button:hover {
-  background-color: #ffb567;
+  background-color: #008177;
+  color: white;
 }
 
 .operador,
@@ -63,8 +64,12 @@ header p {
 .yellow{
   background-color: #fbf96d;
 }
-.yellowClear{
-  background-color: #fbf96d;
+.orange{
+  background-color: #ffae8f;
+}
+
+.orangeClear{
+  background-color: #ffae8f;
   grid-column: span 2;
 }
 
